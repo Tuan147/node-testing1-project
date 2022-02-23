@@ -171,7 +171,7 @@ class Car {
     // ✨ implement
     const gallonsThatFit = this.tankSize - this.tank
     if (gallons <= gallonsThatFit) {
-      this.tank = this.tank + gallon
+      this.tank = this.tank + gallons
     } else {
       this.tank = this.tankSize
     } 
